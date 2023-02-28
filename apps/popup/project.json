@@ -1,6 +1,7 @@
 {
+  "name": "popup",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "root": "apps/popup",
   "sourceRoot": "apps/popup/src",
   "prefix": "popup",
   "targets": {
@@ -80,9 +81,9 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/popup"],
+      "outputs": ["{workspaceRoot}/coverage/apps/popup"],
       "options": {
-        "jestConfig": "apps/popup/jest.config.js",
+        "jestConfig": "apps/popup/jest.config.ts",
         "passWithNoTests": true
       }
     }

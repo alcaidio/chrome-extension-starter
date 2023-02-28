@@ -1,6 +1,7 @@
 {
+  "name": "devtools-panel",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "root": "apps/devtools-panel",
   "sourceRoot": "apps/devtools-panel/src",
   "prefix": "devtools-panel",
   "targets": {
@@ -83,9 +84,9 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/devtools-panel"],
+      "outputs": ["{workspaceRoot}/coverage/apps/devtools-panel"],
       "options": {
-        "jestConfig": "apps/devtools-panel/jest.config.js",
+        "jestConfig": "apps/devtools-panel/jest.config.ts",
         "passWithNoTests": true
       }
     }
