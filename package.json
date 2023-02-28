@@ -49,7 +49,7 @@
     "@nrwl/workspace": "15.8.0",
     "@schematics/angular": "~14.2.0",
     "@trivago/prettier-plugin-sort-imports": "^3.2.0",
-    "@types/chrome": "^0.0.186",
+    "@types/chrome": "^0.0.218",
     "@types/jest": "29.4.0",
     "@types/node": "18.7.1",
     "@typescript-eslint/eslint-plugin": "5.54.0",
